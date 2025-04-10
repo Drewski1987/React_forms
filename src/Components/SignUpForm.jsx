@@ -39,12 +39,16 @@ async function handleSubmit (event) {
         }
         <form onSubmit={handleSubmit}>
             <label>
-                Username: <input name="username" onChange={(event)=> setUsername(event.target.value)} 
+                Username: <input  name="username" onChange={(event)=> setUsername(event.target.value)} 
+                
                 
                 />
             </label>
             <label>
-                Password: <input type="password" value={password} onChange={(event)=> setPassword(event.target.value)} /> 
+                Password: <input type="password" value={password} onChange={(event)=> setPassword(event.target.value)} 
+                
+                />
+
             </label>
 
             <button>Submit</button>
